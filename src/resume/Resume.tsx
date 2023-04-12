@@ -12,7 +12,7 @@ const resumeLink =
   "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
 function ResumeNew() {
-    const pdf = require("../assets/Dhruva_B M_Resume_28-03-2023-22-53-38.pdf")
+    const pdf = require("../assets/Shivanand_Bhajantri_Resume.pdf")
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {

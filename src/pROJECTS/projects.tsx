@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Projects = ()=>{
     const [details, setDetails] = useState<details[]>([]);
   const fetchDetails = async () => {
-    const { data } = await Axios.get("https://randomuser.me/api/");
+    const { data } = await Axios.get("https://fakestoreapi.com/products");
     console.log("RESPONSE: ", data);
     const details = data.results;
     setDetails(details);
